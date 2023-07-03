@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    background-image: url('images/Mosque.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background: #000000d0;
+    color:white;
+    padding: 2em;
+    max-width: 420px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    background-color: #7c7c7c2b;
+    margin-right: 15px;
+    width: 300px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    color: floralwhite;
+}
+
+.searchIcon {
+    background-color: #7c7c7c2b;
+    color: slategray;
+    border: none;
+    outline: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.searchIcon:hover {
+    background-color: #222;
+}
+
+.weather {
+    padding: 10px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.degree {
+    margin-bottom: 15px;
+}
+
+.overallDes {
+    margin-left: 20px;
+}
+
+.description {
+    margin-left: -20px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.hw {
+    margin-top: 20px;
+}
+
+@media (max-width:641px){
+    .card{
+        width: 290px;
+    }
+}
+
+@media (max-width:300px){
+    .card{
+        width: 200px;
+    }
+
+    .searchBar {
+        width: 150px;
+    }
+
+}
+
+
+
