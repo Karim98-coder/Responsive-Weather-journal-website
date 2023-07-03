@@ -1,6 +1,6 @@
 # Weather journal website 
 
-The website is built using HTML, CSS, and JavaScript to provide users with a platform to log and track their daily weather observations.
+The website was built using HTML, CSS, and JavaScript to provide users with a platform to log and track their daily weather observations.
 
 Features :
 
